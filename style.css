@@ -10,6 +10,7 @@ body {
 	font-family: "Alata", sans-serif;
 	background-color: #d1e3e5;
 	height: 100%;
+	min-width: 320px;
 }
 
 .wrapper {
@@ -22,7 +23,7 @@ body {
 	background-color: #fd6c01;
 	height: 100px;
 	line-height: 100px;
-	min-width: 800px;
+	min-width: 725px;
 	min-height: 100px;
 }
 
@@ -173,4 +174,16 @@ p {
 
 .post-container {
 	background-color: #c3dadd;
+}
+
+@media all and (max-width: 1200px) {
+	div {
+		width: 50%;
+	}
+}
+
+@media all and (max-width: 480px) {
+	div {
+		width: 100%;
+	}
 }
