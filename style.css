@@ -10,7 +10,8 @@ body {
 	font-family: "Alata", sans-serif;
 	background-color: #d1e3e5;
 	height: 100%;
-	min-width: 320px;
+	min-width: 820px;
+	min-height: 820px;
 }
 
 .wrapper {
