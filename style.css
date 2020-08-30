@@ -10,8 +10,8 @@ body {
 	font-family: "Alata", sans-serif;
 	background-color: #d1e3e5;
 	height: 100%;
-	min-width: 820px;
-	min-height: 820px;
+	min-width: 800px;
+	min-height: 300px;
 }
 
 .wrapper {
@@ -24,7 +24,7 @@ body {
 	background-color: #fd6c01;
 	height: 100px;
 	line-height: 100px;
-	min-width: 725px;
+	min-width: 820px;
 	min-height: 100px;
 }
 
@@ -58,7 +58,7 @@ body {
 	border: 0px solid #222;
 	background: #222;
 	height: 100px;
-	width: 425px;
+	min-width: 425px;
 	text-align: left;
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
@@ -71,7 +71,7 @@ body {
 }
 
 .container {
-	max-width: 2000px;
+	min-width: 600px;
 	margin: 0 auto;
 }
 
@@ -89,9 +89,10 @@ body {
 
 #footer {
 	background-color: #131217;
-	padding: 50px 0;
+	padding: 50px 0 0 500px;
 	overflow: hidden;
 	clear: both;
+	min-width: 600px;
 
 }
 
